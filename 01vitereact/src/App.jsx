@@ -1,9 +1,9 @@
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const username = "jayant"
+  //In jsx {xyz} evaluated expression
   return (
-    <h1>Hello world</h1>
+    <h1>Hello world, {username}</h1>
   )
 }
 
