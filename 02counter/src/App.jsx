@@ -10,6 +10,16 @@ function App() {
   const addValue = () => {
     // counter++;
     setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // these all not work together
+
+    // we have to do like this
+    // setCounter( (prevCounter) => {return prevCounter+1})
+    // setCounter( (prevCounter) => {return prevCounter+1})
+    // setCounter( (prevCounter) => {return prevCounter+1})
     console.log(counter)
   }
   const decreaseValue = () => {
